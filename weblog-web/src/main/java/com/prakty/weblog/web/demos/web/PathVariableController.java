@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.prakty.weblogweb.demos.web;
+package com.prakty.weblog.web.demos.web;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
