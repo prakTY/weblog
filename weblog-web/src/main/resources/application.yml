@@ -2,8 +2,5 @@ spring:
   profiles:
     # 默认激活 dev 环境
     active: dev
-  jackson:
 
-    # 设置日期字段格式
-    date-format: yyyy-MM-dd HH:mm:ss
 
