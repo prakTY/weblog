@@ -5,6 +5,8 @@ import com.prakty.weblog.common.exception.BizException;
 import com.prakty.weblog.common.utils.Response;
 import com.prakty.weblog.web.model.User;
 import com.prakty.weblog.common.aspect.ApiOperationLog;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
@@ -24,6 +26,7 @@ import java.util.stream.Collectors;
  **/
 @RestController
 @Slf4j
+@Api(tags = "首页模块")
 public class TestController {
 
     /*
@@ -56,6 +59,7 @@ public class TestController {
      */
     @PostMapping("/test")
     @ApiOperationLog(description = "测试接口")
+    @ApiOperation(value = "测试接口")
     public Response test(@RequestBody @Validated User user) {
         return Response.success();
     }
