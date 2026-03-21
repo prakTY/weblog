@@ -1,7 +1,0 @@
-package com.prakty.weblog.common.exception;
-
-public interface BaseExceptionInterface {
-    String getErrorCode();
-
-    String getErrorMessage();
-}
