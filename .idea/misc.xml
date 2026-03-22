@@ -6,7 +6,13 @@
       <list>
         <option value="$PROJECT_DIR$/weblog-springboot/pom.xml" />
         <option value="$PROJECT_DIR$/weblog-springboot/weblog-module-jwt/pom.xml" />
+        <option value="$PROJECT_DIR$/weblog-springboot/webolg-module-jwt/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/weblog-springboot/weblog-module-jwt/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK">
